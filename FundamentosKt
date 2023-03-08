@@ -1,1 +1,35 @@
 
+fun main() {
+    println("Hello")//Exibir mensagens no console
+    /* Pode ser usado em mais de uma linha 
+     * 
+     * 
+     */
+     
+    //Variaveis - Elas armazenam valores 2 classes de variaveis
+    
+    //Mutaveis - Seu valor pode ser alterado VAR
+    //Não mutaveis - Seu valor não pode ser alterado VAL
+    //São maneiras diferentes de declarar uma variavel
+    //Vatiaveis - String 
+    //booleans - True e false 
+    //String - caracteres no geral, tudo entre aspas
+    //char - apenas 1 digito dentro de aspas simples 
+    //INT - números inteiros Ex:100
+    //double - Números decimais, com um limite de até 7 digitos após a virgula ex:22.5
+    
+    //float - números decimais, com um limite de até 14 digitos após a virgula arredonda o número ex:22.5f
+    
+    //long - números Longos com muitos digitos inteiros, ou decimial Ex:800000000000000000000000000
+   
+    //Estrutura de uma variável:
+    
+    //var none = valor
+    //      ou
+    //var nome: tipo
+    var professor = "rodinei
+    var professor: string
+     
+    
+}
+//-------------------------------------------
