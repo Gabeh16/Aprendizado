@@ -33,3 +33,43 @@ fun main() {
     
 }
 //-------------------------------------------
+fun main() {
+    //concatenação
+    //
+    /*
+    var cachorro = "Rex"
+    
+    println("O nome do cachorro de Roberto é $cachorro")
+    
+   var pelé = 1
+   var maradona = 2
+   
+    println("A posição de pelé e maradona é ${(pelé + maradona)}")
+    
+    var Nome = "Gabriel"
+    var Idade = 16
+    var cidade = "São paulo"
+    
+    println(" Olá meu nome é $Nome eu tenho $Idade anos de idade e moro na cidade de $cidade")
+  	*/
+    //Exercicio - Faça um dialogo de no minimo 15 linhas deve conter os nomes de quem estão falando de forma concatenada 
+    //usando variaveis.
+    var Herói = "Batman"
+    var Vilão = "Coringa"
+    var Jovem = "Jeannie"
+    
+    println("Em uma noite fria, o herói da escuridão $Herói estava a espreita observando o caos eminente causado")
+    println("por seu inimigo eterno $Vilão, que estava a assaltar o banco de Gotham, após $Vilão ter rendido a todos")
+    println("$Herói desse do telhado, ao som de uma bomba de fumaça jogada por ele mesmo, com a intenção de se esconder ")
+    println("$Herói se esconde entre os reféns, e assim percebe que $Vilão estava rendendo uma linda garota,")
+    println("que trabalhava como assistente no banco de Gotham ajudando e auxiliando os idosos, seu nome é $Jovem")
+    println("$Herói percebendo a covardia de coringa primeiro decide libertar os reféns e causar uma rebelião")
+    println("e assim ele faz, todos começaram a correr e isso acabou por gerar um caos sem precedentes obrigando assim $Vilão")
+    println("a tomar alguma decisão, e então ele acaba por tomar uma decisão, ele diz a $Herói que não sairia sem matar $Jovem, ")
+	println("mas $Herói ja havia se antecipado e sabia o que coringa poderia fazer, e então a tempos atrás ele havia")
+    println("se antecipando colocando um drone que iria atrás de $Vilão, quando $Herói o acionar ele irá atrás de $Vilão")
+    println("e assim $Herói faz o drone se move atrás de $Vilão e ele ameaça atirar em senhorita $Jovem, mas o drone")
+    println("já estava se aproximando dele, e então ele decide largar senhorita $Jovem e fugir do banco de Gotham com o dinheiro,")
+    println("mas $Herói já sabendo o que $Vilão faria pegou o dinheiro e segurou senhorita $Jovem deixando assim $Vilão")
+    println("sem nada, e as pessoas com suas vidas intactas.")
+}
