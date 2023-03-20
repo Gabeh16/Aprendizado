@@ -73,3 +73,33 @@ fun main() {
     println("mas $Herói já sabendo o que $Vilão faria pegou o dinheiro e segurou senhorita $Jovem deixando assim $Vilão")
     println("sem nada, e as pessoas com suas vidas intactas.")
 }
+fun main() {
+    
+    var halls = 7
+    var freegells = 6
+    
+    println(halls / freegells)
+  
+    /*
+    //Exercicio - faça uma calculadora que contenha um dos operadores matematicos como resultado
+    //do cálculo de duas variaveis (contendo resultado para +, -, /, *, e %)
+    */
+    
+    var Claudia = 3
+    var Glaucia = 6
+    var Valdirene = 4
+    var Wasgner = 5
+    var Cledson = 7
+    var Rolailson = 3
+    
+    println("Calculos foram feitos para saber quantos números de loteria cada um dos três homens e mulheres tinham,")
+    println("Claudia mais glaucia menos Valdirene divido por Wasgner foi igual à ${(Claudia + Glaucia - Valdirene / Wasgner)}")
+    println("E Wasgner Multiplicado por Cledson dividindo Rolailnson e vendo a sobra é ${(Wasgner * Cledson % Rolailson)}")
+    
+    
+    
+    
+    
+    
+    
+}
