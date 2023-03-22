@@ -103,3 +103,89 @@ fun main() {
     
     
 }
+fun main() {
+    
+    var halls = 7
+    var freegells = 6
+    
+    println(halls / freegells)
+  
+    /*
+    //Exercicio - faça uma calculadora que contenha um dos operadores matematicos como resultado
+    //do cálculo de duas variaveis (contendo resultado para +, -, /, *, e %)
+    
+    
+    var Claudia = 3
+    var Glaucia = 6
+    var Valdirene = 4
+    var Wasgner = 5
+    var Cledson = 7
+    var Rolailson = 3
+    
+    println("Calculos foram feitos para saber")   
+    println("quantos números")
+    println("de loteria cada um")
+    println("dos três homens e mulheres tinham,")
+    println("Claudia mais glaucia menos Valdirene divido por Wasgner foi igual à ${(Claudia + Glaucia - Valdirene / Wasgner)}")
+    println("E Wasgner Multiplicado por Cledson dividindo Rolailnson e analisando a sobra é ${(Wasgner * Cledson % Rolailson)}")
+   
+    //Operadores relacionais 
+    //
+    //== - Igual a 
+    //! - Diferente de
+    //! - Negando valor
+    //> - Maior que 
+    //< - Menor que 
+    //>= - Maior ou igual
+    //<= - Menor ou igual
+    //
+    //
+    
+    var claudete = 50
+    var josias = 30
+    var berenice = 90
+    var bernadete = 80
+    
+    println(claudete)
+    claudete++
+    println(claudete)
+    println("")
+    println(josias)
+    josias--
+    println(josias)
+    println("")
+    println(berenice)
+    berenice += claudete
+    println(berenice)
+    println("")
+    println(bernadete)
+    bernadete -= josias
+    println(bernadete)
+    
+    
+    //Condições if...else
+    //
+    //estrutura
+    //if(condição){
+    //ação
+    //}
+    
+    var interruptor = false
+    
+    if(interruptor == true){
+        println("Luz acesa")
+    }else{
+        println("Luz apagada")
+    }
+    */
+      
+    var fome = true
+    
+    if(fome != true){
+        println("Muita fome")
+    }else{
+        println("Pouca Fome")
+}
+
+}
+
