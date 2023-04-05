@@ -631,3 +631,207 @@ if (coracoes >= 5){
               
 }----------------------------------------------------------------
 
+fun main() {
+    
+    /*var halls = 7
+    var freegells = 6
+    
+    println(halls / freegells)
+  
+    /*
+    //Exercicio - faça uma calculadora que contenha um dos operadores matematicos como resultado
+    //do cálculo de duas variaveis (contendo resultado para +, -, /, *, e %)
+    
+    
+    var Claudia = 3
+    var Glaucia = 6
+    var Valdirene = 4
+    var Wasgner = 5
+    var Cledson = 7
+    var Rolailson = 3
+    
+    println("Calculos foram feitos para saber")   
+    println("quantos números")
+    println("de loteria cada um")
+    println("dos três homens e mulheres tinham,")
+    println("Claudia mais glaucia menos Valdirene divido por Wasgner foi igual à ${(Claudia + Glaucia - Valdirene / Wasgner)}")
+    println("E Wasgner Multiplicado por Cledson dividindo Rolailnson e analisando a sobra é ${(Wasgner * Cledson % Rolailson)}")
+   
+    //Operadores relacionais 
+    //
+    //== - Igual a 
+    //! - Diferente de
+    //! - Negando valor
+    //> - Maior que 
+    //< - Menor que 
+    //>= - Maior ou igual
+    //<= - Menor ou igual
+    //
+    //
+    
+    var claudete = 50
+    var josias = 30
+    var berenice = 90
+    var bernadete = 80
+    
+    println(claudete)
+    claudete++
+    println(claudete)
+    println("")
+    println(josias)
+    josias--
+    println(josias)
+    println("")
+    println(berenice)
+    berenice += claudete
+    println(berenice)
+    println("")
+    println(bernadete)
+    bernadete -= josias
+    println(bernadete)
+    
+    
+    //Condições if...else
+    //
+    //estrutura
+    //if(condição){
+    //ação
+    //}
+    
+    var interruptor = false
+    
+    if(interruptor == true){
+        println("Luz acesa")
+    }else{
+        println("Luz apagada")
+    }
+   
+      
+    var fome = true
+    
+    if(fome != true){
+        println("Muita fome")
+    }else{
+        println("Pouca Fome")
+   
+}
+*/
+var senha = "444"
+    
+if(senha == "444" ){
+    println("Bem vindo Rolailson")
+}else{
+    println("Senha incorreta tente novamente")
+}
+
+// if..else composto
+// 
+// com o if..else composta, somos permitidas, comparar mais de duas condições mais de duas condições (o simples e o else),
+// através do else 'if'
+
+var coracoes = 5 
+    
+if (coracoes >= 5){
+    println("Você está, muito saudavel parábens")
+}else if(coracoes == 4){
+    println("Suas vidas estão sendo sucumbidas")
+}else if(coracoes == 3){
+    println("Você terá problemas se não cuidar de suas vidas")    
+}else if(coracoes == 1){
+    println("Você está morrendo")
+}else{
+    println("Você morreu")
+} 
+
+    var dividas = 10000
+    if (dividas <= -10000){
+        println("Você está muito individado") 
+    }else if(dividas >= +10000 ){
+        println("Você está bem nas dividas")
+    }else{ 
+        print("Você está falido")
+    }
+    
+    var dinheiro = 0
+    if (dinheiro < 0 ){
+        println("Você está duro")    
+    }else if(dinheiro > 0){
+        println("Cheio do money Cria")
+    }
+    
+     
+    //TABELA VERDADE 
+    //&&
+    //VV
+    //VF
+    //FV
+    //FF
+  
+        var idade = 15
+        var comPais = false
+    	var comIdentidade = true
+        
+        if(idade >= 18){
+             
+            if((idade <= 12 && comIdentidade == true) || comPais == true){
+                println("Aproveite o show jovem")
+        }else{
+            println("Entrada negada")
+        }
+                                                  
+        }else{
+            println(" Aproveite o show!! ")
+           
+       }
+        */
+        //Exercicio -> No metroidVania, para o Hero ir para a tela de GameOver
+        //Seus corações precisam ser igual a zero e suas vidas precisam ser menor ou igual a zero
+        
+        //simule com operadores Lógicos quando ele vai para o gameover e quando ele não vai
+        
+        var coracoes = 5
+    	var vida = false	
+    
+    	if(coracoes <= 0 || vida == false){
+            println("Você morreu!")
+            
+        } else {
+            println("Você está vivo")
+        }
+            
+            //when - quando
+            //
+            //Comparação de quando um valor for igual a um determinado valor,
+            //uma determinada ação será executada
+            //
+            //estrutura do when 
+            //
+            //var auxiliar = valor
+            //
+            //when(auxiliar){
+            //
+            //valor -> (ação)
+            //valor -> (ação)
+            //valor -> (ação)
+            //else -> (ação)
+            //}
+            
+            var mes = 4
+            
+            when(mes){
+            	1 - {println("lisboa")}
+                2 - {println("Nova York")}
+                3 - {println("Rio de janeiro")}
+                4 - {println("Barcelona")}
+                5 - {println("Rôndonia")}
+                6 - {println("Roraima")}
+                7 - {println("Santa Catarina")}
+                8 - {println("Rio Branco")}
+                else - {println("fé")}
+               
+            }
+      
+        
+        
+}--------------------------------------------------
+
