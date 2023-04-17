@@ -1311,16 +1311,75 @@ if (coracoes >= 5){
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+       
+                
+                               
         }--------------
+	/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+    println("Hello, world!!!")
+
+//repeat(númeroVezes){
+        //ação
+        //}
+        
+/*
+repeat(8){
+            println("Isso é um teste")
+            
+        }
+
+       
+        var contador = 0
+       
+        
+        repeat(10){
+            
+            println(contador++)
+          
+        }
+        
+    	var contador = 0 
+    	while (contador < 10){
+            println(contador++)
+        }
+        
+        
+        var bateria = 100 
+    
+    	while (bateria > 0){
+       		println("$bateria%")
+            
+        when (bateria){
+            15-("Seu celular está descarregando conecte ao carregador")
+            0-("Seu celular está descarregado conecte-o ao carregador")
+            
+        }
+        bateria--
+        
+        }
+        
+        
+        var contador = 0
+		
+	do{
+        println(contador++)
+    }while(contador >10 )
+
+
+for(pneu in 1..4){
+  println("1 Pneu")
+}
+  for(pneu in 0..3){
+   println(pneu + 1)
+  }
+*/
+ for(tabuada 2 in 1..10)
+      ("$tabuada 2 * 1..10")
+
+
+}
 
