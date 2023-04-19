@@ -1381,5 +1381,9 @@ for(pneu in 1..4){
       ("$tabuada 2 * 1..10")
 
 
-}
+}-------------------------------------
+var tabuada = 0
+
+ for(tabuada in 1..10){
+      println(tabuada * 9)
 
