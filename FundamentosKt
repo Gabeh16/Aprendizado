@@ -1417,15 +1417,29 @@ var tabuada = 0
     alunos.add("Rafael")
     println(alunos)
     
-    printl("Em Julho Renan entrou")
+    println("Em Julho Renan entrou")
     alunos.add("Renan")
     println(alunos)
     
     println("Em Agosto Regis foi substituido por Renereition e Rexona entrou")
     alunos.set(2,"Renereition")
     alunos.add("Rexona")
+    println(alunos)
  
     println("Em setembro Rener entrou")
     alunos.add("Rener")
+    println(alunos)
+    
+    println("Em outubro Rodinei entrou")
+    alunos.add(0,"Rodinei")
+    println(alunos)
+    
+    println("Em novembro Rolaidison entrou")
+    alunos.add("Roalidison")
+    println(alunos)
+    
+    println("Em dezembro Robson entrou")
+    alunos.add("Robson")
+    println(alunos)
     
     
