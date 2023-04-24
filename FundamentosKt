@@ -1386,4 +1386,46 @@ var tabuada = 0
 
  for(tabuada in 1..10){
       println(tabuada * 9)
+      
+      ---------------------------------------------------
 
+ var alunos = mutableListOf<String>("Robert","Roger","Regis","Reginaldo","Ronaldo")
+    println("Em Janeiro Rony entrou na sala")
+    alunos.add(1,"Rony")
+    println(alunos)
+    
+    println("Em Fevereiro Robert foi transferido e Renato entrou")
+    alunos.remove("Robert")
+    alunos.add("Renato")
+    println(alunos)
+    
+    println("Em Março Reginaldo foi transferido e Rogerio entrou")
+    alunos.remove("Reginaldo")
+    alunos.add("Rogerio")
+    println(alunos)
+    
+    println("Em Abril Reginey entrou")
+    alunos.add("Reginey")
+    println(alunos)
+    
+    println("Em Maio Ronaldo foi substituido por Rerilei e Redlabel entrou")
+    alunos.set(4,"Rerilei")
+    alunos.add("Redlabel")
+    println(alunos)
+    
+    println("Em Junho Rafael entrou")
+    alunos.add("Rafael")
+    println(alunos)
+    
+    printl("Em Julho Renan entrou")
+    alunos.add("Renan")
+    println(alunos)
+    
+    println("Em Agosto Regis foi substituido por Renereition e Rexona entrou")
+    alunos.set(2,"Renereition")
+    alunos.add("Rexona")
+ 
+    println("Em setembro Rener entrou")
+    alunos.add("Rener")
+    
+    
