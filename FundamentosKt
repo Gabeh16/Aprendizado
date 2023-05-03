@@ -1442,4 +1442,35 @@ var tabuada = 0
     alunos.add("Robson")
     println(alunos)
     
+    ---------------------------------------------------
     
+    fun main() {4  
+    var pessoa1 = Pessoa()//instanciamos um obj
+    
+    pessoa1.idade = 17
+    pessoa1.nome = "Gabriel Costa"
+    pessoa1.pais = "Brasil"
+    pessoa1.nacionalidade ="Brasileiro"
+//996435417
+//.idioma = "Português"][´[]   pessoa1.profissão = "Pedero"
+    
+    println(pessoa1.idade)
+    println(pessoa1.nome)74
+    println(pessoa1.pais)
+    println(pessoa1.nacionalidade)
+    println(pessoa1.idioma)
+    println(pessoa1.profissão)
+    
+    
+}
+  
+
+ class Pessoa {
+     
+    var nome = ""
+    var idade = 0
+    var pais = ""
+    var idioma= ""
+    var nacionalidade = ""
+ 
+    var profissão = ""}
