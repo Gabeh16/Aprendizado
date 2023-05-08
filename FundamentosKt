@@ -1474,3 +1474,35 @@ var tabuada = 0
     var nacionalidade = ""
  
     var profissão = ""}
+    fun main() {
+   /*
+    var pessoa1 = Pessoa()//instanciamos um obj
+    
+    pessoa1.idade = 17
+    pessoa1.nome = "Gabriel Costa"
+    pessoa1.pais = "Brasil"
+    pessoa1.nacionalidade ="Brasileira"
+    pessoa1.profissão = "Pedeiro"
+    pessoa1.idioma = "Português"
+    
+    println("Meu nome é ${pessoa1.nome} tenho ${pessoa1.idade} anos, sou do ${pessoa1.pais} e assim tenho a nacionalidade $(pessoa1.nacionalidade)")
+  	println("Eu tenho como profissão $(pessoa1.profissão) e meu idioma é o $(pessoa1.idioma) nativo")
+    */
+    
+     
+	var animal1 = animais("Boi","Nelore", 12, "Capim", "Grande")
+        
+    
+
+}  
+  
+    
+ class animais(var especie: String,
+               var raça: String,
+               var idade: Int,
+               var dieta: String,
+               var porte: String,){
+
+ 
+ }
+
