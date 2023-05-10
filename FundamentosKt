@@ -1488,21 +1488,23 @@ var tabuada = 0
     println("Meu nome é ${pessoa1.nome} tenho ${pessoa1.idade} anos, sou do ${pessoa1.pais} e assim tenho a nacionalidade $(pessoa1.nacionalidade)")
   	println("Eu tenho como profissão $(pessoa1.profissão) e meu idioma é o $(pessoa1.idioma) nativo")
     */
-    
-     
-	var animal1 = animais("Boi","Nelore", 12, "Capim", "Grande")
-        
-    
+    -------------------------------------------------------------------------------------------
+   fun main(){  
 
-}  
-  
-    
- class animais(var especie: String,
+    	var animal1 = animal("Boi","Nelore", 12 , "Capim", "Grande")
+        var animal2 = animal("Cavalo","Bretão", 4 ,"Capim", "Grande")
+        var animal3 = animal("Urso","Urso polar", 3 , "Carne fresca", "Grande")
+        var animal4 = animal("Arara","Arara azul", 10 , "Frutas Tropicais", "Pequeno")
+        var animal5 = animal("Girafa","Girafa da somália", 5 , "Gramas e frutas", "Grande")
+        var animal6 = animal("Hipopotamo","Hipopótamo do nilo", 13 , "Frutas", "Grande")
+        var animal7 = animal("Elefante","Arara", 22 , "Fruta", "Grande")
+        var animal8 = animal("Tubarão","Tubarão martelo", 10 , "Carne fresca", "Médio")
+        var animal9 = animal("Tigre","Tigre branco", 6 , "Carne fresca e frutos", "Médio")
+        var animal10 = animal("Cobra","Cobra coral", 3 ,"Bichos pequenos","Pequeno")
+      
+}     
+ class animal(var especie: String,
                var raça: String,
                var idade: Int,
                var dieta: String,
-               var porte: String,){
-
- 
- }
-
+               var porte: String){
