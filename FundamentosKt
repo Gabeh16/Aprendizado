@@ -1508,3 +1508,59 @@ var tabuada = 0
                var idade: Int,
                var dieta: String,
                var porte: String){
+	var animal1 = animal("Boi","Nelore", 12 , "Capim", "Grande")
+        var animal2 = animal("Cavalo","Bretão", 4 ,"Capim", "Grande")
+        var animal3 = animal("Urso","Urso polar", 3 , "Carne fresca", "Grande")
+        var animal4 = animal("Arara","Arara azul", 10 , "Frutas Tropicais", "Pequeno")
+        var animal5 = animal("Girafa","Girafa da somália", 5 , "Gramas e frutas", "Grande")
+        var animal6 = animal("Hipopotamo","Hipopótamo do nilo", 13 , "Frutas", "Grande")
+        var animal7 = animal("Elefante","Arara", 22 , "Fruta", "Grande")
+        var animal8 = animal("Tubarão","Tubarão martelo", 10 , "Carne fresca", "Médio")
+        var animal9 = animal("Tigre","Tigre branco", 6 , "Carne fresca e frutos", "Médio")
+        var animal10 = animal("Cobra","Cobra coral", 3 ,"Bichos pequenos","Pequeno")
+        var animal11 = animal("Baleia","Baleia Branca", 8 ,"Bichos grandes","Grande")
+        var animal12 = animal("Macaco","Mico-leão-dourado", 6  ,"Frutos","Pequeno")
+        var animal13 = animal("Leão","Leão-africana", 9  ,"Carne","Médio")
+        var animal14 = animal("Capivara","Hydrochoerus hydracheris", 10 ,"Bichos pequenos","Médio")
+        var animal15 = animal("Sapo","Sapo cururu", 11 ,"Bichos pequenos","Pequeno")
+        var animal16 = animal("Tartaruga","Tartaruga tigre d'agua", 34 ,"Verduras e legumes","Pequeno")
+        var animal17 = animal("Guepardo","Guepardo africano", 16 ,"Bichos pequenos","Médio")
+        var animal18 = animal("Cabra","Cabra da montanha", 3 ,"Bichos pequenos","Médio")
+        var animal19 = animal("Passáro","Pintassilgo", 5 ,"Sementes","Pequeno")
+        var animal20 = animal("Golfinho","Boto-Cinza", 12 ,"Peixes","Médio")
+        
+        
+        
+      println(animal1.especie +" - " +animal1.raça)
+      println(animal2.especie +" - " +animal2.raça)
+      println(animal3.especie +" - " +animal3.raça)
+      println(animal4.especie +" - " +animal4.raça)
+      println(animal5.especie +" - " +animal5.raça)
+      println(animal6.especie +" - " +animal6.raça)
+      println(animal7.especie +" - " +animal7.raça)
+      println(animal8.especie +" - " +animal8.raça)
+      println(animal9.especie +" - " +animal9.raça)
+      println(animal10.especie +" - " +animal10.raça)
+      println(animal11.especie +" - " +animal11.raça)
+      println(animal12.especie +" - " +animal12.raça)
+      println(animal13.especie +" - " +animal13.raça)
+      println(animal14.especie +" - " +animal14.raça)
+      println(animal15.especie +" - " +animal15.raça)
+      println(animal16.especie +" - " +animal16.raça)
+      println(animal17.especie +" - " +animal17.raça)
+      println(animal18.especie +" - " +animal18.raça)
+      println(animal19.especie +" - " +animal19.raça)
+      println(animal20.especie +" - " +animal.raça)
+
+      
+      
+      
+      
+      
+}     
+ class animal(var especie: String,
+               var raça: String,
+               var idade: Int,
+               var dieta: String,
+               var porte: String){
+ }
