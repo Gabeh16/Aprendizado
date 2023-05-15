@@ -1564,3 +1564,39 @@ var tabuada = 0
                var dieta: String,
                var porte: String){
  }
+ fun main() {
+   //Metódos - atividades e ações
+      
+      
+    var animalzn = Animal("cachorro", "Dogão", 18, "Ração", "Grandão")
+    
+    animalzn.comer(animal.dieta)
+    
+    var animalzao = Animal("Golfinho", "Boto cor de rosa", 50 , "Sua tia", "Grande")
+    
+    animalzao.correr(120,34)
+    animalzao.lugar
+    
+}     
+ class Animal(var especie: String,
+               var raça: String,
+               var idade: Int,
+               var dieta: String,
+               var porte: String){
+
+     //Estrutura de um método
+     //fun(nomeDoParâmetro: Tipo){
+     //ação
+     //}
+ 	 
+     fun comer(alimento: String){
+         println("$especie comendo $alimento, TOTOZO")
+     }
+     
+     fun correr(velocidade: Double lugar: String){
+         println("$especie corre $velocidade, Rapidin")
+     }
+     
+     
+ 
+ }
