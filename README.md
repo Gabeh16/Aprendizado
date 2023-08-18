@@ -1,3 +1,3 @@
 # Cursos#1
 ***
-Aprendixado de **KOTLIN** e programação *Básica*
+Aprendizado de **KOTLIN** e programação *Básica*
